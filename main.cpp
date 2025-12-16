@@ -1,5 +1,4 @@
-// Soubor: main.cpp
-#include "Formule.h" // Tímto načteš kód z druhého souboru
+#include "Formule.h"
 
 int main() {
     Ferrari mojeAuto;
