@@ -8,4 +8,6 @@ include_directories(.)
 add_executable(skupina_Brdicka_Kulisek
         untitled/main.cpp
         Formule.h
-        main.cpp)
+        main.cpp
+        Main/main.cpp
+        Main/Formule.h)
