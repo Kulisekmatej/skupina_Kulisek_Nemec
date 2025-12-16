@@ -1,10 +1,11 @@
+#pragma once
 #include "Formule.h"
 
-int main() {
-    Ferrari mojeAuto;
+class RedBull : public Formule {
+public:
+    RedBull() : Formule("Red Bull Racing") {}
 
-    mojeAuto.zvukMotoru();
-    mojeAuto.zrychli();
-
-    return 0;
-}
+    void zvukMotoru() override {
+        std::cout << "VROOOOOM! (Vysokootackovy motor Red Bull)" << std::endl;
+    }
+};
