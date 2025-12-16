@@ -1,4 +1,3 @@
-#pragma once
 #include "Formule.h"
 
 class RedBull : public Formule {
@@ -9,3 +8,17 @@ public:
         std::cout << "VROOOOOM! (Vysokootackovy motor Red Bull)" << std::endl;
     }
 };
+
+int main() {
+    Ferrari ferrari;
+    RedBull redBull;
+
+    ferrari.zrychli();
+    ferrari.zvukMotoru();
+
+    redBull.zrychli();
+    redBull.zvukMotoru();
+
+    return 0;
+}
+
